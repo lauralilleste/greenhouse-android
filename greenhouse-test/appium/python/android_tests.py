@@ -22,7 +22,6 @@ class AndroidTests(unittest.TestCase):
         # end the session
         self.driver.quit()
 
-
     def test_activity(self):
         self.assertIsNotNone(self.driver.current_activity)
 
