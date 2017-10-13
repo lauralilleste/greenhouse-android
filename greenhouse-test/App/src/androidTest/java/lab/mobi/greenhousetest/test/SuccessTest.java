@@ -106,8 +106,8 @@ public class SuccessTest extends AndroidTestCase {
     
     @Ignore("Test is ignored as a demonstration")
     @Test
-    public void testSame() {
-        assertThat(1, is(1));
+    public void testIgnore() {
+        assertEquals(1, 1);
     }
     
 }
