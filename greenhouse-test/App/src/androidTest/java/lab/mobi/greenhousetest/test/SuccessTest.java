@@ -33,7 +33,7 @@ public class SuccessTest extends AndroidTestCase {
         assertFalse(true && false);
     }
 
-    public void testSuccess3() throws Exception {
+    public void testSuccess33() throws Exception {
         assertEquals(1, 1);
         assertNotSame(1, 2);
         assertTrue(true);
@@ -41,6 +41,7 @@ public class SuccessTest extends AndroidTestCase {
         assertTrue(true || false);
         assertFalse(true && false);
     }
+    
     public void testSuccess4() throws Exception {
         assertEquals(1, 1);
         assertNotSame(1, 2);
@@ -49,6 +50,7 @@ public class SuccessTest extends AndroidTestCase {
         assertTrue(true || false);
         assertFalse(true && false);
     }
+    
     public void testSuccess5() throws Exception {
         assertEquals(1, 1);
         assertNotSame(1, 2);
@@ -66,6 +68,7 @@ public class SuccessTest extends AndroidTestCase {
         assertTrue(true || false);
         assertFalse(true && false);
     }
+    
     public void testSuccess7() throws Exception {
         assertEquals(1, 1);
         assertNotSame(1, 2);
@@ -74,6 +77,7 @@ public class SuccessTest extends AndroidTestCase {
         assertTrue(true || false);
         assertFalse(true && false);
     }
+    
     public void testSuccess8() throws Exception {
         assertEquals(1, 1);
         assertNotSame(1, 2);
@@ -82,6 +86,7 @@ public class SuccessTest extends AndroidTestCase {
         assertTrue(true || false);
         assertFalse(true && false);
     }
+    
     public void testSuccess9() throws Exception {
         assertEquals(1, 1);
         assertNotSame(1, 2);
@@ -98,4 +103,5 @@ public class SuccessTest extends AndroidTestCase {
         assertTrue(true || false);
         assertFalse(true && false);
     }
+    
 }
