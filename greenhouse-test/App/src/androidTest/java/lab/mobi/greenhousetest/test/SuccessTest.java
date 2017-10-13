@@ -57,14 +57,7 @@ public class SuccessTest extends AndroidTestCase {
         assertTrue(true || false);
         assertFalse(true && false);
     }
-    public void testSuccess3() throws Exception {
-        assertEquals(1, 1);
-        assertNotSame(1, 2);
-        assertTrue(true);
-        assertFalse(false);
-        assertTrue(true || false);
-        assertFalse(true && false);
-    }
+
     public void testSuccess6() throws Exception {
         assertEquals(1, 1);
         assertNotSame(1, 2);
