@@ -2,7 +2,6 @@ package lab.mobi.greenhousetest.test;
 
 import android.test.AndroidTestCase;
 import java.lang.Exception;
-import org.junit.*;
 
 public class SuccessTest extends AndroidTestCase {
 
@@ -103,12 +102,6 @@ public class SuccessTest extends AndroidTestCase {
         assertFalse(false);
         assertTrue(true || false);
         assertFalse(true && false);
-    }
-    
-    @Ignore("Test is ignored as a demonstration")
-    @Test
-    public void testIgnore() {
-        assertEquals(1, 1);
     }
     
 }
